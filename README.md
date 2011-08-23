@@ -7,8 +7,11 @@
 
 ## How to use
 
-### Gather the posts from the front page ** Currently you can only get the front page posts
-	visit hackernews.aaronfoltz.com
+### Gather the posts from the front page
+	visit hackernews.aaronfoltz.com/get
+### Gather the posts from the desired page
+	visit hackernews.aaronfoltz.com/get?page=#
+Where # is the desired page number
 	
 * A pure JSON implementation of the front page information will be returned.  If you access this using a web browser, it will ask you to download a file containing the JSON.  If using this option, you will notice that the JSON is prettified using JSON.stringify using tabs.
 	
