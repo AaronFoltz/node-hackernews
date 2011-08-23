@@ -2,9 +2,8 @@ var scraper = require('scraper');
 var sys = require("sys");
 var http = require("http");
 
-
-var postArray = new Array();
-exports.get = function (){
+function get (callback) {
+	var postArray = new Array();
 	
 	scraper('http://news.ycombinator.com',function(err, $) {
 	    if (err) {throw err;}
@@ -58,19 +57,25 @@ exports.get = function (){
 			}
 		
 		});
-	
-		console.log(postArray);
-		
-		return postArray;
-	
+		//console.log(postArray);
+		callback(postArray);
 	});
-	
 }
 
-http.createServer(function(request, response) {
-    response.writeHead(200, {"Content-Type": "text/json"});
-    response.write(JSON.stringify(this.get()));
-    response.close();
-}).listen(8080);
+var server = http.createServer(function (request, response) {
+	console.log("Got a request");
+	
+	// Call the get method
+    get(function(body) {
+	
+		console.log(JSON.stringify(body, null, '\t'));
+		
+		// Handle the response 
+    	response.writeHead(200, {"Content-Type": "text/json"});
+      	response.write(JSON.stringify(body, null, '\t'));
+		response.end();
 
-console.log("Listening on 8080");
+    });
+  });
+
+server.listen(8080);
