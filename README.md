@@ -9,7 +9,7 @@
 
 ### Gather the posts from the front page
 	visit hackernews.aaronfoltz.com/get
-### Gather the posts from the desired page
+### Gather the posts from the desired page  
 	visit hackernews.aaronfoltz.com/get?page=#
 Where # is the desired page number
 	
