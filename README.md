@@ -8,11 +8,11 @@
 ## How to use
 
 ### Gather the posts from the front page
-[hackernews.aaronfoltz.com/get](hackernews.aaronfoltz.com/get)
+[hackernews.aaronfoltz.com/get](http://hackernews.aaronfoltz.com/get)
 OR
 [http://falling-lightning-490.herokuapp.com/get](http://falling-lightning-490.herokuapp.com/)
 ### Gather the posts from the desired page  
-[hackernews.aaronfoltz.com/get?page=#](hackernews.aaronfoltz.com/get)
+[hackernews.aaronfoltz.com/get?page=#](http://hackernews.aaronfoltz.com/get)
 OR [http://falling-lightning-490.herokuapp.com/get?page=#](http://falling-lightning-490.herokuapp.com/get?page=2)
 Where # is the desired page number
 	
