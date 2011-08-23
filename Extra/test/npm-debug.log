@@ -1,0 +1,143 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/bin/npm', 'install', 'express' ]
+info using npm@1.0.26
+info using node@v0.5.4
+verbose /usr/bin/node node symlink
+verbose config file /Users/aaron/.npmrc
+verbose config file /usr/etc/npmrc
+silly testEngine { name: 'node-example',
+silly testEngine   version: '0.0.1',
+silly testEngine   dependencies: { express: '2.2.0' },
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: '/Users/aaron/Desktop/Dropbox/Development/Code/Node/test/package.json',
+silly testEngine      wscript: false,
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false },
+silly testEngine   _id: 'node-example@0.0.1',
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.26',
+silly testEngine   _nodeVersion: 'v0.5.4',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /Users/aaron/Desktop/Dropbox/Development/Code/Node/test/package.json
+verbose loadDefaults node-example@0.0.1
+verbose from cache /Users/aaron/Desktop/Dropbox/Development/Code/Node/test/package.json
+verbose into /Users/aaron/Desktop/Dropbox/Development/Code/Node/test [ 'express' ]
+verbose cache add express@2.2.0
+verbose cache add [ 'express@2.2.0', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'express@2.2.0',
+silly cache add: name, spec, args   [ 'express@2.2.0', null ] ]
+verbose parsed url { pathname: 'express@2.2.0', href: 'express@2.2.0' }
+silly cache add: name, spec, args [ 'express', '2.2.0', [ 'express', '2.2.0' ] ]
+verbose parsed url { pathname: '2.2.0', href: '2.2.0' }
+info addNamed [ 'express', '2.2.0' ]
+verbose addNamed [ '2.2.0', '2.2.0' ]
+verbose GET express/2.2.0
+verbose raw, before any munging express/2.2.0
+verbose url resolving [ 'https://registry.npmjs.org/', './express/2.2.0' ]
+verbose url resolved https://registry.npmjs.org/express/2.2.0
+verbose url parsed { protocol: 'https:',
+verbose url parsed   slashes: true,
+verbose url parsed   host: 'registry.npmjs.org',
+verbose url parsed   hostname: 'registry.npmjs.org',
+verbose url parsed   href: 'https://registry.npmjs.org/express/2.2.0',
+verbose url parsed   pathname: '/express/2.2.0' }
+verbose etag "8B6YTWF8IDXMQM1GJO99B3QYQ"
+verbose response https://registry.npmjs.org/express/2.2.0
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.1.0 (Erlang OTP/R14B03)',
+silly get cb     etag: '"8B6YTWF8IDXMQM1GJO99B3QYQ"',
+silly get cb     date: 'Tue, 23 Aug 2011 02:55:32 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag express/2.2.0 from cache
+verbose bin dist [ null,
+verbose bin dist   { shasum: 'ab38a7eaad67a1c28495021a798d234086d73dea',
+verbose bin dist     tarball: 'http://registry.npmjs.org/express/-/express-2.2.0.tgz' } ]
+silly testEngine { name: 'express',
+silly testEngine   description: 'Sinatra inspired web development framework',
+silly testEngine   version: '2.2.0',
+silly testEngine   author: 
+silly testEngine    { name: 'TJ Holowaychuk',
+silly testEngine      email: 'tj@vision-media.ca' },
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'TJ Holowaychuk',
+silly testEngine        email: 'tj@vision-media.ca' },
+silly testEngine      { name: 'Aaron Heckmann',
+silly testEngine        email: 'aaron.heckmann+github@gmail.com' },
+silly testEngine      { name: 'Ciaran Jessup', email: 'ciaranj@gmail.com' },
+silly testEngine      { name: 'Guillermo Rauch', email: 'rauchg@gmail.com' } ],
+silly testEngine   dependencies: 
+silly testEngine    { connect: '>= 1.2.0 < 2.0.0',
+silly testEngine      mime: '>= 0.0.1',
+silly testEngine      qs: '>= 0.0.6' },
+silly testEngine   keywords: [ 'framework', 'sinatra', 'web', 'rest', 'restful' ],
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/visionmedia/express.git' },
+silly testEngine   main: 'index',
+silly testEngine   bin: { express: './bin/express' },
+silly testEngine   engines: { node: '>= 0.4.1 < 0.5.0' },
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: '/Users/aaron/.npm/express/2.2.0/package/package.json',
+silly testEngine      wscript: false,
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false },
+silly testEngine   _id: 'express@2.2.0',
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: false,
+silly testEngine   _npmVersion: '1.0.26',
+silly testEngine   _nodeVersion: 'v0.5.4',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /Users/aaron/.npm/express/2.2.0/package/package.json
+verbose loadDefaults express@2.2.0
+silly resolved [ { name: 'express',
+silly resolved     description: 'Sinatra inspired web development framework',
+silly resolved     version: '2.2.0',
+silly resolved     author: 
+silly resolved      { name: 'TJ Holowaychuk',
+silly resolved        email: 'tj@vision-media.ca' },
+silly resolved     contributors: 
+silly resolved      [ { name: 'TJ Holowaychuk',
+silly resolved          email: 'tj@vision-media.ca' },
+silly resolved        { name: 'Aaron Heckmann',
+silly resolved          email: 'aaron.heckmann+github@gmail.com' },
+silly resolved        { name: 'Ciaran Jessup', email: 'ciaranj@gmail.com' },
+silly resolved        { name: 'Guillermo Rauch', email: 'rauchg@gmail.com' } ],
+silly resolved     dependencies: 
+silly resolved      { connect: '>= 1.2.0 < 2.0.0',
+silly resolved        mime: '>= 0.0.1',
+silly resolved        qs: '>= 0.0.6' },
+silly resolved     keywords: [ 'framework', 'sinatra', 'web', 'rest', 'restful' ],
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/visionmedia/express.git' },
+silly resolved     main: 'index',
+silly resolved     bin: { express: './bin/express' },
+silly resolved     engines: { node: '>= 0.4.1 < 0.5.0' },
+silly resolved     _npmJsonOpts: 
+silly resolved      { file: '/Users/aaron/.npm/express/2.2.0/package/package.json',
+silly resolved        wscript: false,
+silly resolved        contributors: false,
+silly resolved        serverjs: false },
+silly resolved     _id: 'express@2.2.0',
+silly resolved     devDependencies: {},
+silly resolved     _engineSupported: false,
+silly resolved     _npmVersion: '1.0.26',
+silly resolved     _nodeVersion: 'v0.5.4',
+silly resolved     _defaultsLoaded: true } ]
+info into /Users/aaron/Desktop/Dropbox/Development/Code/Node/test express@2.2.0
+info installOne express@2.2.0
+verbose installOne cb express@2.2.0
+ERR! Unsupported
+ERR! Not compatible with your version of node/npm: express@2.2.0
+ERR! Required: {"node":">= 0.4.1 < 0.5.0"}
+ERR! Actual:   {"npm":"1.0.26","node":"v0.5.4"}
+ERR! 
+ERR! System Darwin 10.8.0
+ERR! command "node" "/usr/bin/npm" "install" "express"
+ERR! cwd /Users/aaron/Desktop/Dropbox/Development/Code/Node/test
+ERR! node -v v0.5.4
+ERR! npm -v 1.0.26
+verbose exit [ 1, true ]

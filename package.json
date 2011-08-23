@@ -1,0 +1,7 @@
+{
+  "name": "node-hackernews",
+  "version": "0.0.1",
+  "dependencies": {
+    "scraper": "0"
+  }
+}
