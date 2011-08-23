@@ -8,11 +8,12 @@
 ## How to use
 
 ### Gather the posts from the front page
-	visit [hackernews.aaronfoltz.com/get](hackernews.aaronfoltz.com/get)
-	OR [http://falling-lightning-490.herokuapp.com/get](http://falling-lightning-490.herokuapp.com/)
+[hackernews.aaronfoltz.com/get](hackernews.aaronfoltz.com/get)
+OR
+[http://falling-lightning-490.herokuapp.com/get](http://falling-lightning-490.herokuapp.com/)
 ### Gather the posts from the desired page  
-	visit [hackernews.aaronfoltz.com/get?page=#](hackernews.aaronfoltz.com/get)
-	OR [http://falling-lightning-490.herokuapp.com/get?page=#](http://falling-lightning-490.herokuapp.com/get?page=2)
+[hackernews.aaronfoltz.com/get?page=#](hackernews.aaronfoltz.com/get)
+OR [http://falling-lightning-490.herokuapp.com/get?page=#](http://falling-lightning-490.herokuapp.com/get?page=2)
 Where # is the desired page number
 	
 * A pure JSON implementation of the front page information will be returned.  If you access this using a web browser, it will ask you to download a file containing the JSON.  If using this option, you will notice that the JSON is prettified using JSON.stringify using tabs.
