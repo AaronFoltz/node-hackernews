@@ -109,8 +109,9 @@ var server = http.createServer(function (request, response) {
 	
 	var urlParts = url.parse(request.url, true);
 	
+	console.log(urlParts.pathname);
 	// If using the /get pathname, then get the information
-	if(urlParts.pathname == '/get'){
+	if(urlParts.pathname == '/get' || urlParts.pathname == '/'){
 		
 		// Gather the query
 		var query = urlParts.query;
